@@ -235,3 +235,6 @@ DEBUG=1
 ```
 
 Will enable access to these variables within any Python program -e.g. via a call to `os.environ['SPARK_HOME']`. Note, that if any security credentials are placed here, then this file **must** be removed from source control - i.e. add `.env` to the `.gitignore` file to prevent potential security risks.
+
+
+### CREDITS: BASE VERSION of this tutorial taken from [here](https://github.com/AlexIoannides/pyspark-example-project.git)
